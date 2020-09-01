@@ -1,0 +1,58 @@
+.projects {
+  min-height: 25vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-top: 5vh;
+  border-bottom: 1px dashed #333;
+  border-top: 1px dashed #333;
+}
+.projects-main-title {
+  margin: 5vh 10vw 0 10vw;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.project {
+  min-height: 10vh;
+}
+.project-nav {
+  text-align: center;
+}
+.arrow {
+  margin: 1vw 3vw 1vw 3vw;
+  color: rgb(122, 122, 122);
+}
+.arrow:hover {
+  color: rgb(144, 142, 144);
+  cursor: pointer;
+}
+.arrow-box {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font-size: 1.5em;
+}
+.project-item {
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+.project-item-title {
+  margin: 0;
+  letter-spacing: 3px;
+  font-size: 2.5em;
+}
+.project-item-desc {
+  margin-bottom: 7.5vh;
+  letter-spacing: 3px;
+}
+.project-item-logo {
+  margin: 5vh 2.5vh 2.5vh 2.5vh;
+}
+
+#colleger-pic {
+  height: auto;
+  width: 20vh;
+}

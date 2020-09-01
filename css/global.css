@@ -1,0 +1,109 @@
+.wrapper {
+  font-family: arial;
+  height: 100%;
+  transition: all 1s;
+}
+.centered {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.side-widget {
+  position: fixed;
+  background-color: rgba(99, 107, 116, 0.3);
+  border-radius: 30px;
+  float: left;
+  top: 10vh;
+  left: 15px;
+  padding: 1vw;
+  list-style-type: none;
+  transition: all 1s;
+}
+.widget-item {
+  margin: 0;
+  padding: 0 0 1vh 0;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+.widget-item:hover {
+  color: rgb(84, 130, 144);
+  transition: all 1s;
+  cursor: pointer;
+}
+a:hover {
+  color: rgb(84, 130, 144) !important;
+  text-transform: uppercase;
+  transition: all 1s;
+}
+#top { transition: all 2s; }
+.top-nav {
+  position: fixed;
+  right: 2vw;
+  margin-top: 85vh;
+  color: rgba(88, 88, 88, 0.5);
+  font-size: 5.5em;
+}
+.top-nav:hover {
+  opacity: .5;
+  cursor: pointer;
+  transition: all 1s;
+}
+.front {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  place-items: center;
+  border-bottom: #222 20px solid;
+}
+.front-logo {
+  min-width: 15vw;
+  padding: 20px 30px 20px 30px;
+  background-color: rgba(33, 33, 33, 0.8);
+  text-align: center;
+  border-radius: 30px;
+}
+.front-logo-text {
+  color: white;
+  font-size: 6em;
+  letter-spacing: 3px;
+  font-family: 'Open Sans', sans-serif;
+}
+.front-img {
+  width: 15vw;
+  height: auto;
+}
+.box {
+  flex: 1 1 50vh;
+  flex: 0 1 50vh;
+  margin: 0 60px 0 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .front { height: 50vh; }
+  .profile { padding: 5vh; }
+  .front-logo-text { font-size: 2.5em; }
+  .skills-title { font-size: 1.5em !important; text-align: center; }
+  .projects-main-title { font-size: 1.5em !important; }
+  .skill-desc { font-size: 1em !important; text-align: center; margin: 0 0 2vh 0 !important; }
+  .project-item-title { font-size: 1.5em !important; }
+  .project-item-logo { width: 75% !important; }
+  .project-item-desc { font-size: .75em !important;}
+  .projects .box { margin: 0 !important; }
+  .arrow-box { font-size: .75em !important; }
+  .footer-content { text-align: center; font-size: .75em; }
+  .contact-item { margin: 3vh 0 0 0 !important; }
+  .ft-collapse { min-height: 5vh !important; }
+  .skill { padding: 5vw 15vw 2vh 15vw !important; font-size: .75em !important; }
+  .side-widget, .top-nav { display: none; }
+
+  #colleger {
+    margin-left: 0vw;
+    margin-top: 5vh;
+    width: 100%;
+  }
+}

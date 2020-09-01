@@ -1,0 +1,25 @@
+.about {
+  min-height: 35vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.profile {
+  width: auto;
+  height: auto;
+  padding: 30px;
+  margin-top: 3vh;
+  border-radius: 250px;
+}
+.about-title {
+  float: left;
+  margin: 5vh;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+.about-text {
+  float: left;
+  margin: 0 0 5vh 5vh;
+}
